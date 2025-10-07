@@ -1,4 +1,4 @@
-const sapaButton = document.getElementById('sapaButton');
-sapaButton.addEventListener('click', function() {
-  alert('TERIMA KASIH SUDAH BERKUNJUNG!');
+document.getElementById('sapaButton').addEventListener('click', function() {
+  alert('Halo! Terima kasih telah menyapa saya, Ovan Aprilio. 😊');
+  // Or console.log('Button clicked!'); for debugging
 });
